@@ -20,15 +20,24 @@ body{
     flex-direction: column;
     gap: 16px;
 }
-div{
+container {
     border-radius: 25px;
+    border: solid 1px var(--color-light);
     background: rgba(0, 0, 0, 0.5);
-    width: 75%;
+    width: 50%;
     justify-content: center;
+}
+.date{
+    display: flex;;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom:none;
+    border-bottom: solid 2px var(--color-light);
 }
 .clock{
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 .clock span{
     font-size: 150px;
@@ -38,8 +47,13 @@ div{
 }
 .clock span:not(:last-child):after{
     content: ':';
-    margin-bottom:  25px; 
+    margin-bottom:  15px; 
     color: var(--color-points);
+}
+.date span:not(:last-child):after{
+    content: '-';
+    margin-bottom:  5px; 
+    color: var(--color-light);
 }
 h3 strong{
     color: var(--color-strong);
