@@ -64,5 +64,22 @@ h3 strong{
     border-radius: 25px;
     border: solid 1px var(--color-light);
     padding: 5vh;
-
+}
+@media (max-width: 768px) {
+    .clock span {
+        font-size: 60px;
+        gap: 20px;
+    }
+    .clock {
+        gap: 20px;
+    }
+    .date {
+        font-size: 3vh;
+    }
+    #previsao-tempo {
+        padding: 3vh;
+    }
+    container {
+        padding: 10px;
+    }
 }
