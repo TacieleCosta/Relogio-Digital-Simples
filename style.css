@@ -20,17 +20,17 @@ body{
     flex-direction: column;
     gap: 16px;
 }
-container {
+container{
     border-radius: 25px;
     border: solid 1px var(--color-light);
     background: rgba(0, 0, 0, 0.5);
-    width: 50%;
+    padding: 20px;
     justify-content: center;
 }
 .date{
     display: flex;;
     justify-content: center;
-    font-size: 50px;
+    font-size: 05vh;
     margin-bottom:none;
     border-bottom: solid 2px var(--color-light);
 }
@@ -57,4 +57,12 @@ container {
 }
 h3 strong{
     color: var(--color-strong);
+}
+#previsao-tempo{
+    background: linear-gradient( 95deg , #5588e7 0%, #f18648 100%);
+    color: #a89d9d;
+    border-radius: 25px;
+    border: solid 1px var(--color-light);
+    padding: 5vh;
+
 }
